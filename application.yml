@@ -1,2 +1,7 @@
 foo: baz
 serverport: 8881
+datasource.serverport: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
